@@ -137,7 +137,7 @@ export default {
     sub: 'Subirse a una buseta con su familia en otro país significa querer ver una cara real primero. Aquí están las nuestras.',
     founderTitle: 'El fundador',
     founderParas: [
-      'MOBA nació en Tamarindo por una razón sencilla: demasiados visitantes aterrizaban en Liberia a las diez de la noche y descubrían que su transporte había cotizado un precio y quería otro.',
+      'MOBA nació en Tempate por una razón sencilla: demasiados visitantes aterrizaban en Liberia a las diez de la noche y descubrían que su transporte había cotizado un precio y quería otro.',
       'Manejamos estos caminos todos los días. Sabemos cuál entrada de hotel no tiene rótulo, cuál curva se inunda en octubre y cuánto dura de verdad llegar a Nosara.',
     ],
     namePending: 'Falta el nombre',

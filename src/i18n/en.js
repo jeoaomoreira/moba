@@ -137,7 +137,7 @@ export default {
     sub: 'Getting into a van with your family in another country means wanting to see a real face first. Here are ours.',
     founderTitle: 'The founder',
     founderParas: [
-      'MOBA started in Tamarindo for a plain reason: too many visitors were landing in Liberia at ten at night and finding out their ride had quoted one price and wanted another.',
+      'MOBA started in Tempate for a plain reason: too many visitors were landing in Liberia at ten at night and finding out their ride had quoted one price and wanted another.',
       'We drive these roads every day. We know which hotel entrance is unmarked, which turn floods in October, and how long Nosara really takes.',
     ],
     namePending: 'Name to add',

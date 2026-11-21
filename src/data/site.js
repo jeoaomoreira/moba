@@ -3,13 +3,13 @@
    All user-facing wording lives in src/i18n/en.js and es.js.
    ============================================================ */
 
-// TODO: replace with MOBA's real WhatsApp number.
+// MOBA's WhatsApp number: +506 6069 7297.
 // Country code first, digits only, no + and no spaces. Costa Rica is 506.
-export const WHATSAPP_NUMBER = '50600000000'
+export const WHATSAPP_NUMBER = '50660697297'
 
 export const CONTACT = {
   email: 'hola@moba.cr',
-  base: 'Tamarindo, Guanacaste',
+  base: 'Tempate, Guanacaste',
 }
 
 // TODO: replace with the real registration numbers once issued.
@@ -88,8 +88,8 @@ export const FLEET = ['van', 'suv', 'sprinter', 'minibus']
 /** Guarantee order and ids; copy comes from the locale files. */
 export const GUARANTEES = ['flight', 'sign', 'insured', 'price']
 
-// TODO: add the founder's name and portrait.
-export const FOUNDER = { name: null, photo: null }
+// TODO: add the founder's portrait.
+export const FOUNDER = { name: 'Gerardo Moreira Barquero', photo: null }
 
 // TODO: add each driver's name and photo. `name: null` renders a placeholder.
 export const DRIVERS = [
