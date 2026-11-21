@@ -405,6 +405,31 @@ a{ color:inherit; }
   box-shadow:0 0 0 4px var(--violet-w);
 }
 
+/* Date and time are native controls. iOS Safari gives them an intrinsic
+   width that ignores the card, and as flex items they refuse to shrink
+   below it, so on a phone they spill past the right edge. Strip the native
+   appearance, let them shrink, and keep them the height of a text field. */
+.field input[type="date"],
+.field input[type="time"]{
+  appearance:none; -webkit-appearance:none;
+  min-width:0;
+  max-width:100%;
+  line-height:normal;
+  min-height:54px;
+}
+.field input[type="date"]::-webkit-date-and-time-value,
+.field input[type="time"]::-webkit-date-and-time-value{
+  text-align:left;
+  margin:0;
+  min-height:19px;
+}
+/* Keeps the picker icon inside the field instead of pushing the width out. */
+.field input[type="date"]::-webkit-calendar-picker-indicator,
+.field input[type="time"]::-webkit-calendar-picker-indicator{
+  flex:none;
+  margin-inline-start:auto;
+}
+
 .stepper{
   display:flex; align-items:center; justify-content:space-between;
   background:var(--paper);
