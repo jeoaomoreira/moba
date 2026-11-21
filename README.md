@@ -12,6 +12,25 @@ npm run build    # writes dist/
 npm run preview  # serves the built dist/
 ```
 
+## Deploying
+
+Vercel detects this automatically — import the repo and accept the defaults.
+There is no `vercel.json` because none is needed:
+
+| | |
+|---|---|
+| Framework | Vite |
+| Install | `npm install` (from `package-lock.json`) |
+| Build | `npm run build` |
+| Output | `dist` |
+
+`npm ci && npm run build` has been run clean from the lockfile, which is the
+same pipeline Vercel uses. No rewrite rules are required: the site is a single
+page and its navigation is in-page anchors, not client-side routing.
+
+Nothing here reads an environment variable. The WhatsApp number is a constant
+in `src/data/site.js` — changing it is a commit, not a dashboard setting.
+
 ## Before this goes live
 
 Everything below lives in **`src/data/site.js`**. Nothing else needs editing.
