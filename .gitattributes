@@ -1,0 +1,8 @@
+# Store text files with LF in the repository regardless of the machine they
+# were committed from, so a clone on macOS or Linux does not show every file
+# as changed. Working copies still check out with native endings.
+* text=auto
+
+*.webp binary
+*.png binary
+*.jpg binary
